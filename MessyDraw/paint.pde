@@ -14,10 +14,11 @@ class Paint{
   
   float dropRate = 0.004;
   float dropRange = 40;
-  color drawColor = color(0,0,0);
-  float drawWeight = 1;
   float drawAlpha = 50;
   float dropAlpha = 150;
+  color drawColor = color(0,0,0,drawAlpha);
+  float drawWeight = 1;
+
   int count = 0 ;
   int maxCount = 200;  
   

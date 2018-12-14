@@ -25,3 +25,9 @@ void draw() {
     }
   }
 }
+
+void keyPressed() {
+  if (key == 's' || key == 'S') {
+    isStop = !isStop;
+  } 
+}
